@@ -3,7 +3,7 @@ Sunucuları için geliştirilmiş Türkçe Discord Botu
 
 [------------] Asistan [-------------]
              
-<img src="https://cdn.discordapp.com/emojis/425273856983564289.gif"> BETA aşamasında <br/>
+<img src="https://cdn.discordapp.com/emojis/425273856983564289.gif"> BETA aşamasında <br/><br/>
 <img src="https://cdn.discordapp.com/emojis/425273856983564289.gif"> Kodlama Dili: JavaScript <br/>         
 <img src="https://cdn.discordapp.com/emojis/425273856983564289.gif"> Proje Başlangıç: 02.07.2018 <br/>  
 
