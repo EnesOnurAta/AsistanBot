@@ -1,0 +1,2 @@
+# AsistanBot
+Türkçe Discord Botu
