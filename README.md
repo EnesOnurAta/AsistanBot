@@ -1,6 +1,5 @@
 <div id="Asistan-BOT">
-  
-<div class="en-üst"></div>
+  <div class="en-üst"></div>
 <center>
 <div class="Bot-Logo">
   <br/><h1 class="Renkli-Başlık"> Asistan<img src="https://cdn.discordapp.com/attachments/440820385643233290/451179633077911562/favicon.png" alt="BOT"></h1><br/></div><br/>
@@ -63,20 +62,31 @@ Sunucular için geliştirilmiş Türkçe Discord botu.
 
 <div class="EnesOnurAta">
   <center><h2 class="EOA-isim">Enes Onur Ata#9427</h2>
+    <a href="http://skriptcraft.rf.gd" class="rainbow-button" alt="Site"></a><br/>
 <img src="https://cdn.discordapp.com/attachments/440820385643233290/464094172861693973/EnesOnurAta.jpg" alt="EOA-Logo" height="300" width="300"></center>
   </div>
   
 <img src="https://cdn.discordapp.com/attachments/440820385643233290/463314531385344000/setting_-_Kopya.png">
 <img src="https://cdn.discordapp.com/emojis/424321045034696724.gif" alt="Kod" height="" wigth="" class="Kod"></img>
 <img src="http://www.harbiforum.net/gorsel/resim/bayrak-7.gif" alt="TürkBayrağı" height="387" wigth="" class="TürkBayrağı"></img>
+
+
 </div>
   
   <style>
-  #Asistan-BOT:hover {
+  #Asistan-BOT{
       cursor: url(http://cur.cursors-4u.net/cursors/cur-8/cur721.ani), url(http://cur.cursors-4u.net/cursors/cur-8/cur721.png), progress !important;
+      background: black;
     }
-  body{
+  html,body{
     background: black;
+    scrollbar-face-color: #414340;
+    scrollbar-shadow-color: #cccccc;
+    scrollbar-highlight-color: #cccccc;
+    scrollbar-3dlight-color: #cccccc;
+    scrollbar-darkshadow-color: #cccccc;
+    scrollbar-track-color: #cccccc;
+    scrollbar-arrow-color: #000000;
     }
   h1{
     color: yellow;
@@ -93,6 +103,7 @@ Sunucular için geliştirilmiş Türkçe Discord botu.
     font-size: 50px;}
    .en-üst{
     border-bottom: 5px solid white;
+    background: black;
     }
    .EnesOnurAta{
     background: black;
@@ -115,9 +126,11 @@ Sunucular için geliştirilmiş Türkçe Discord botu.
     border-bottom: 5px solid red;
     }
   .Bot-Bilgi-üst{
+    background: black;
     border-bottom: 5px solid red;
     }
   .Bot-Bilgi{
+    background: black;
     background: #ffb3cc;
     color: red;
     border-bottom: 5px solid red;
@@ -174,5 +187,63 @@ Sunucular için geliştirilmiş Türkçe Discord botu.
 	85%{color: blue;}
 	0%{color: orange;}	
 }
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
 }
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black; 
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: green; 
+}
+a {
+  text-decoration:none;
+  color:#FFF;
+}
+.rainbow-button {
+  width:calc(20vw + 6px);
+  height:calc(8vw + 6px);
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  border-radius:5px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-transform:uppercase;
+  font-size:3vw;
+  font-weight:bold;
+}
+.rainbow-button:after {
+  content:attr(alt);
+  width:20vw;
+  height:8vw;
+  background-color:black;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.rainbow-button:hover {
+  animation:slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
   </style>
+  </div>
