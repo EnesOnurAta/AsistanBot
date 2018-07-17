@@ -114,7 +114,7 @@ Sunucular için geliştirilmiş Türkçe Discord botu.
     border-bottom: 5px solid black;
     }
   .Bot-Logo{
-    background: green;
+    background: red;
     border-bottom: 5px solid white;
     }
   .Bot-Açıklama-üst{
